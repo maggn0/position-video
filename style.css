@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(83, 83, 83);
+}
+
+header {
+    text-align: center;
+    background-color: black;
+
+    padding:  10px;
+}
+
+header h1 {
+    color: white;
+}
+
+header p {
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(24, 24, 24);
+    
+}
+
+main p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+div.video {
+    padding: 20px;
+    padding-bottom: 53%;
+
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
